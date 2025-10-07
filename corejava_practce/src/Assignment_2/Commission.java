@@ -6,16 +6,16 @@ public class Commission {
 	public void calculateCalculation(Commission commission) {
 		int sales=commission.sales_amount;
 		if(sales>= 100000) {
-			System.out.println("10%");
+			System.out.print("10%");
 		}
 		else if( 50000 <= sales &&  sales < 100000) {
-			System.out.println("5%");
+			System.out.print("5%");
 		}
 		else if(30000 <=sales && sales<50000) {
-			System.out.println("3%");	
+			System.out.print("3%");	
 		}
 		else if(sales < 30000) {
-			System.out.println("No Commission");	
+			System.out.print("No Commission");	
 		}
 	}
 	public String getName() {

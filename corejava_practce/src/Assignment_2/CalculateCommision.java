@@ -9,19 +9,20 @@ public class CalculateCommision {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter your name:");
 		String name=sc.nextLine();
-		System.out.println("Enter your sales amount");
+		System.out.println("Enter your sales amount:");
 		int sales=sc.nextInt();
 		sc.nextLine();
-		System.out.println("Enter your phone number");
+		System.out.println("Enter your phone number:");
 		int phone=sc.nextInt();
 		sc.nextLine();
-		System.out.println("Enter your address");
+		System.out.println("Enter your address:");
 		String address=sc.nextLine();
 		obj.setName(name);
 		obj.setPhone(phone);	
 		obj.setAddress(address);
 		obj.setSales_amount(sales);
-		System.out.println(obj.toString()+"");
+		System.out.println(obj.toString());
+		System.out.print("Commission: ");
 		obj.calculateCalculation(obj);
 	}
 
