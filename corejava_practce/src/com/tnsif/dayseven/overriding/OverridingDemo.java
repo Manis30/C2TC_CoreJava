@@ -1,5 +1,4 @@
 package com.tnsif.dayseven.overriding;
-
 public class OverridingDemo {
 
 	public static void main(String[] args) {
@@ -14,5 +13,4 @@ public class OverridingDemo {
 		System.out.println(rbi.getRateOfInterest());
 
 	}
-
 }
