@@ -1,14 +1,21 @@
+//Program to demonstrate WrapperClasses
 package com.tnsif.daynine;
 
-public class WrapperClassDemoOne {
+public class WrapperClassDemo {
+	public static void main(String[] args) {
+		// Unboxing
+		Integer i = new Integer(10);
+		System.out.println(i);
+		int b = i.intValue();
+		System.out.println(b);
 
-	public static void main(String args[]) {
-		System.out.println("Hello World");
-
-		int a = Integer.parseInt(args[0]);
-		int b = Integer.parseInt(args[1]);
-		int c = a + b;
+		// Without using intValue()
+		int c = i;
 		System.out.println(c);
+		
+		//Autoboxing
+		int a = 100;
+		Integer i1 = a;
+		System.out.println(i1);
 	}
-
 }

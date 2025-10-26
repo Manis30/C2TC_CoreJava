@@ -17,8 +17,6 @@ public class ArrayClassDemo {
 		System.out.println(intKey + " found at index = " + Arrays.binarySearch(intArr, intKey));
 
 		System.out.println(intKey + " found at index = " + Arrays.binarySearch(intArr, 1, 3, intKey));
-
-		
 		System.out.println("First Array : " + Arrays.toString(intArr));
 		int intArr1[] = { 10, 15, 22 };
 		System.out.println("Second Array : " + Arrays.toString(intArr1));
